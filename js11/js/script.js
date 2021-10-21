@@ -30,6 +30,7 @@ function newElement(){
     li.className = "list-group-item";
     if(inputValue === ""){
         alert("vul ne keer iets jongen, mutten!");
+        teller--;
     }else{
         document.getElementById("myUL").appendChild(li);
     }
